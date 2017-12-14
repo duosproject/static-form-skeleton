@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DUOS</title>
+		<link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+		<script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    	<link rel="stylesheet" href="styles.css">
+    	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Condensed:400,700" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="header">
+			<img src="duos_logo.png" id="logo">
+			<a href="https://duosproject.github.io" id="about">ABOUT</a>
+		</div>
+		<div class="main-container">
+			<h3>Paper: 401(k) Plans and Future Patterns of Retirement Saving</h3>
+			<h3 id="author">Author: James Poterba</h3>
+			<div class="white-box">
+				<p>In regards to the paper 401(k) Plans and Future Patterns of Retirement Saving, please verify whether the following datasets were utilized. If clarification is needed, or if you are unsure, please provide an explanation in the text box that appeaers after selecting those options.</p>
+				<table>
+					<tr class="light">
+						<td>
+							<label class="dataset">Current Population Survey</label>
+						</td>
+						<td>
+							<form>
+								<label class="labels yes-buttons tooltip" id="yes-radio-label-1" for="yes-radio-1">Yes
+									<span class="tooltiptext">Select this option if the dataset was used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-1" id="yes-radio-1">
+							    <label class="labels no-buttons tooltip" id="no-radio-label-1" for="no-radio-1">
+							    No
+									<span class="tooltiptext">Select this option if the dataset was NOT used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-1" id="no-radio-1">
+							    <label class="labels unsure-buttons tooltip" id="unsure-radio-label-1" for="unsure-radio-1">
+							    Unsure
+							    	<span class="tooltiptext">Select this option if you are unsure about this dataset. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-1" id="unsure-radio-1">
+							    <label class="labels needs-clarification tooltip" id="clarification-radio-label-1" for="clarification-radio-1">
+							    Needs Clarification
+							    	<span class="tooltiptext">Select this option if this dataset needs clarification. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-1" id="clarification-radio-1">
+							</form>
+						</td>
+					</tr>
+					<tr id="clarification-row-1"></tr>
+					<tr class="dark">
+						<td>
+							<label class="dataset">Health and Retirement Survey</label>
+						</td>
+						<td>
+							<form>
+								<label class="labels yes-buttons tooltip" id="yes-radio-label-2" for="yes-radio-2">
+								Yes
+									<span class="tooltiptext">Select this option if the dataset was used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-2" id="yes-radio-2">
+							    <label class="labels no-buttons tooltip" id="no-radio-label-2" for="no-radio-2">
+							    No
+							    	<span class="tooltiptext">Select this option if the dataset was NOT used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-2" id="no-radio-2">
+							    <label class="labels unsure-buttons tooltip" id="unsure-radio-label-2" for="unsure-radio-2">
+							    Unsure
+							    	<span class="tooltiptext">Select this option if you are unsure about this dataset. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-2" id="unsure-radio-2">
+							    <label class="labels needs-clarification tooltip" id="clarification-radio-label-2" for="clarification-radio-2">
+							    Needs Clarification
+							    	<span class="tooltiptext">Select this option if this dataset needs clarification. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-2" id="clarification-radio-2">
+							</form>
+						</td>
+					</tr>
+					<tr id="clarification-row-2"></tr>
+					<tr class="light">
+						<td>
+							<label class="dataset">RAND Coroporation's American Life Panel</label>
+						</td>
+						<td>
+							<form>
+								<label class="labels yes-buttons tooltip" id="yes-radio-label-3" for="yes-radio-3">
+								Yes
+									<span class="tooltiptext">Select this option if the dataset was used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-3" id="yes-radio-3">
+							    <label class="labels no-buttons tooltip" id="no-radio-label-3" for="no-radio-3">
+							    No
+									<span class="tooltiptext">Select this option if the dataset was NOT used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-3" id="no-radio-3">
+							    <label class="labels unsure-buttons tooltip" id="unsure-radio-label-3" for="unsure-radio-3">
+							    Unsure
+									<span class="tooltiptext">Select this option if you are unsure about this dataset. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-3" id="unsure-radio-3">
+							    <label class="labels needs-clarification tooltip" id="clarification-radio-label-3" for="clarification-radio-3">
+							    Needs Clarification
+							    	<span class="tooltiptext">Select this option if this dataset needs clarification. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-3" id="clarification-radio-3">
+							</form>
+						</td>
+					</tr>
+					<tr id="clarification-row-3"></tr>
+					<tr class="dark">
+						<td>
+							<label class="dataset">Household Income Expectations Project (HIEP)</label>
+						</td>
+						<td>
+							<form>
+								<label class="labels yes-buttons tooltip" id="yes-radio-label-4" for="yes-radio-4">
+								Yes
+									<span class="tooltiptext">Select this option if the dataset was used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-4" id="yes-radio-4">
+							    <label class="labels no-buttons tooltip" id="no-radio-label-4"  for="no-radio-4">
+							    No
+							    	<span class="tooltiptext">Select this option if the dataset was NOT used in this paper.</span>
+								</label>
+							    <input type="radio" name="radio-4" id="no-radio-4">
+							    <label class="labels unsure-buttons tooltip" id="unsure-radio-label-4" for="unsure-radio-4">
+							    Unsure
+							    	<span class="tooltiptext">Select this option if you are unsure about this dataset. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-4" id="unsure-radio-4">
+							    <label class="labels needs-clarification tooltip" id="clarification-radio-label-4" for="clarification-radio-4">
+							    Needs Clarification
+							    	<span class="tooltiptext">Select this option if this dataset needs clarification. Please include an explanation below.</span>
+								</label>
+							    <input type="radio" name="radio-4" id="clarification-radio-4">
+							</form>
+						</td>
+					</tr>
+					<tr id="clarification-row-4"></tr>
+				</table>
+			</div>			
+		</div>
+	</body>
+	<script src="index.js"></script>	
+</html>
